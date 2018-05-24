@@ -12,8 +12,7 @@ Excercices are at ipython_robot_prototyping/scripts/excercises
  2. ROS_concepts_explained_Topic_Service_Parameter.ipynb
  3. Using_IPython_Interactive_Widgets.ipynb
  4. Visualizing_robot_senses.ipynb
- 5. Controlling_and_visualizing_the_ESP_bot.ipynb
- 6. Tour_of_ROS_tools_with_experiments.ipynb
+ 5. *BONUS:* Tour_of_ROS_tools_with_experiments.ipynb
 
 
 ### How to install:
@@ -32,7 +31,7 @@ The commands are for those who want to run the ROS from their native environment
 First, you need to have your ROS basic setup, use 
 this tutorial: [http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment](http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment)
 
-
+PS. Ros and Anaconda do not cooperate very well.
 
 
 We will be working using python3 so install also:
