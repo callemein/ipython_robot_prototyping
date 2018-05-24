@@ -1,4 +1,4 @@
-## ROS Package for IPython Robot Prototyping workshop at PyCon PL 2017
+## ROS Package for IPython Robot Prototyping workshop at PyCon Cz 2018
 
 The package consists msg and srv files and simulator programs for the workshop
 
@@ -52,7 +52,7 @@ sudo apt-get install mpg123
 
 
 
-You need to have catkin workspace set up. Next commands assume that it is in a standard place (~/catkin_ws)
+You need to have [catkin workspace set up](http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment). Next commands assume that it is in a standard place (~/catkin_ws)
 
 
 clone this package to catkin_ws/src
@@ -89,7 +89,7 @@ source the changes
     cd ~/catkin_ws/src/ipython_robot_prototyping && ipython3 notebook
   ```
   
-  Jupyter notebook should open in your browser. Go to exercises directory and open setting_up_and_running_your_first_ROS_Node.ipynb
+  Jupyter notebook should open in your browser. Go to scripts -> exercises directory and open setting_up_and_running_your_first_ROS_Node.ipynb
   
 ### Running locally
 
