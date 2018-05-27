@@ -79,7 +79,13 @@ source the changes
  ```
  pip3 install -r requirements.txt
  ```
- 
+
+You need also install ipywidgets: you can use file "additional_setup.sh" (~/catkin_ws/src/ipython_robot_prototyping/additional_setup.sh) or run  following command in your bash:
+
+'''
+sudo jupyter nbextension enable --py --sys-prefix widgetsnbextension
+'''
+
   
   After that, start the IPython notebook in ipython_robot_prototyping directory (~/catkin_ws/src/ipython_robot_prototyping)
   
