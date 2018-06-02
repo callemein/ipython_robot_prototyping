@@ -22,7 +22,7 @@ so you don't need to manually install ROS beforehand.
 
 ** However, please install and prepare VirtualBox
  using the instructions from
-[Getting Started with virtual environment](https://github.com/AdoHaha/ipython_robot_prototyping/blob/master/scripts/excercises/Getting_Started_with_virtual_environment.ipynb) **.
+[Getting Started with virtual environment](https://github.com/lidkalee/ipython_robot_prototyping/blob/master/scripts/excercises/Getting_Started_with_virtual_environment.ipynb) **.
 
 #### Manual install 
 
@@ -57,7 +57,7 @@ You need to have [catkin workspace set up](http://wiki.ros.org/ROS/Tutorials/Ins
 clone this package to catkin_ws/src
 
   ```
-  cd ~/catkin_ws/src/ & git clone https://github.com/AdoHaha/ipython_robot_prototyping
+  cd ~/catkin_ws/src/ & git clone https://github.com/lidkalee/ipython_robot_prototyping
   ```
 
 run catkin_make in the main catkin_ws directory
