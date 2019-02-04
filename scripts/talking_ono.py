@@ -1,11 +1,10 @@
 #! /usr/bin/python3 
+
+
+# CHATBOT
+
 from chatterbot import ChatBot
-chatbot = ChatBot("Simple chat service")
-
 from chatterbot.trainers import ListTrainer
-
-
-
 from gtts import gTTS
 
 
@@ -35,10 +34,12 @@ conversation = [
     "I speak Python"
     ]
 
-#chatbot.set_trainer(ListTrainer)
-chatbot.train(conversation)
+chatbot = ChatBot('Charlie')
+trainer = ListTrainer(chatbot)
 
+trainer.train(conversation)
 
+# ROS PART
 
 import os
 import rospy
@@ -46,11 +47,7 @@ import rospy
 import roslib
 roslib.load_manifest('ipython_robot_prototyping')
 
-
-
 from ipython_robot_prototyping.srv import *
-
-
 
 def voice(tekst):
     tts = gTTS(text=str(tekst), lang='en', slow=False)
