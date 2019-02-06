@@ -57,7 +57,7 @@ def voice(tekst):
 def respond(question):
     response = chatbot.get_response(question.question)
     
-    voice(response)
+    #voice(response)
 
     return QuestionResponse(str(response))
     
